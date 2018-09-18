@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class RectangleProject {
+	
+public static void main(String[] args)
+{
+	Scanner input = new Scanner(System.in);
+	
+	double length;
+	double width;
+	double perimeter;
+	double area;
+	double diagonal;
+	
+	System.out.print("Enter the length: ");
+	length = input.nextDouble();
+	
+	
+	
+}
+	
+}

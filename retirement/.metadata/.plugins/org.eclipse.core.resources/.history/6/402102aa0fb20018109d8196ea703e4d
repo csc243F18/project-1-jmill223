@@ -1,0 +1,71 @@
+import java.util.Scanner;
+import static java.lang.Math.sqrt; 
+import static java.lang.Math.round;
+import static java.lang.Math.floorDiv;
+
+public class RectangleProject {
+	
+public static void main(String[] args)
+{
+	Scanner input = new Scanner(System.in);
+	
+	System.out.print("Enter the length: ");
+	double length = input.nextDouble();
+	System.out.print("Enter the width: ");
+	double width = input.nextDouble();
+	
+	double perimeter = (length * 2) + (width * 2);
+	double area = length * width;
+	double diagonal = sqrt((length * length) + (width * width));
+	
+	double rPerimeter = round(perimeter * 100.0) / 100.0;
+	double rArea = round(area * 100.0) / 100.0;
+	double rDiagonal = round(diagonal * 100.0) / 100.0;
+	
+	double size = area / 100;
+	
+	if(size == 1)
+	{
+		System.out.println("The perimeter is " + rPerimeter);
+		System.out.println("The area is " + rArea);
+		System.out.println("The diagonal is " + rDiagonal);
+		System.out.println("That is a small rectangle");
+	}
+	if(size == 2)
+	{
+		System.out.println("The perimeter is " + rPerimeter);
+		System.out.println("The area is " + rArea);
+		System.out.println("The diagonal is " + rDiagonal);
+		System.out.println("That is a medium rectangle");
+	}
+	if(size == 3)
+	{
+		System.out.println("The perimeter is " + rPerimeter);
+		System.out.println("The area is " + rArea);
+		System.out.println("The diagonal is " + rDiagonal);
+		System.out.println("That is a large rectangle");
+	}
+	if(size == 4)
+	{
+		System.out.println("The perimeter is " + rPerimeter);
+		System.out.println("The area is " + rArea);
+		System.out.println("The diagonal is " + rDiagonal);
+		System.out.println("That is a Xlarge rectangle");
+	}
+	if(size > 5)
+	{
+		System.out.println("The perimeter is " + rPerimeter);
+		System.out.println("The area is " + rArea);
+		System.out.println("The diagonal is " + rDiagonal);
+		System.out.println("That is a huge rectangle");
+	}
+	
+	
+	
+	
+	
+	
+	
+}
+	
+}

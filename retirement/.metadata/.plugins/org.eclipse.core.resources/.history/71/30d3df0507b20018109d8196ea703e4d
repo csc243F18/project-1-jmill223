@@ -1,0 +1,15 @@
+
+public class RectangleProject {
+	
+public static void main(String[] args)
+{
+	double legnth;
+	double width;
+	double perimeter;
+	double area;
+	double diagonal;
+	
+	
+}
+	
+}

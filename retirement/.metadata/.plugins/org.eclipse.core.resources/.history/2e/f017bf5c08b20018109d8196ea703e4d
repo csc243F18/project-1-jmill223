@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class RectangleProject {
+	
+public static void main(String[] args)
+{
+	Scanner input = new Scanner(System.in);
+	
+	
+	
+	double diagonal;
+	
+	System.out.print("Enter the length: ");
+	double length = input.nextDouble();
+	System.out.print("Enter the width: ");
+	double width = input.nextDouble();
+	
+	double perimeter = (length * 2) + (width * 2);
+	double area = length * width;
+	
+	
+	
+	
+}
+	
+}

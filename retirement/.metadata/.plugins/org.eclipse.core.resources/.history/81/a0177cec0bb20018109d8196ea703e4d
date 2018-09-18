@@ -1,0 +1,29 @@
+import java.util.Scanner;
+import static java.lang.Math.sqrt; 
+import static java.lang.Math.round;
+
+public class RectangleProject {
+	
+public static void main(String[] args)
+{
+	Scanner input = new Scanner(System.in);
+	
+	System.out.print("Enter the length: ");
+	double length = input.nextDouble();
+	System.out.print("Enter the width: ");
+	double width = input.nextDouble();
+	
+	double perimeter = (length * 2) + (width * 2);
+	double area = length * width;
+	double diagonal = sqrt((length * length) + (width * width));
+	
+	System.out.println("The perimeter is " + perimeter);
+	System.out.println("The area is " + area);
+	System.out.println("The diagonal is " + diagonal);
+	
+	
+	
+	
+}
+	
+}
